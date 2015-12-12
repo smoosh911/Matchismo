@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +15,53 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Casino-Playing-Cards-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="lLj-CY-C0U">
+                                <rect key="frame" x="59" y="206" width="256" height="256"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="VbN-MD-5k3"/>
+                                    <constraint firstAttribute="width" secondItem="lLj-CY-C0U" secondAttribute="height" multiplier="1:1" id="hdQ-D7-trk"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VbN-MD-5k3"/>
+                                        <exclude reference="hdQ-D7-trk"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lLj-CY-C0U" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="186" id="8XQ-4X-h9K"/>
+                            <constraint firstItem="lLj-CY-C0U" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DAk-eK-dag"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lLj-CY-C0U" secondAttribute="bottom" constant="205" id="TCj-3H-hXh"/>
+                            <constraint firstItem="lLj-CY-C0U" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="39" id="d6J-IK-eKl"/>
+                            <constraint firstItem="lLj-CY-C0U" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hb6-Jn-VeM"/>
+                            <constraint firstItem="lLj-CY-C0U" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="40" id="r7J-fE-9lT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lLj-CY-C0U" secondAttribute="trailing" constant="40" id="snV-g1-7Jt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8XQ-4X-h9K"/>
+                                <exclude reference="d6J-IK-eKl"/>
+                                <exclude reference="r7J-fE-9lT"/>
+                                <exclude reference="snV-g1-7Jt"/>
+                                <exclude reference="TCj-3H-hXh"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Casino-Playing-Cards-icon.png" width="256" height="256"/>
+    </resources>
 </document>

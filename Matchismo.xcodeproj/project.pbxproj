@@ -12,6 +12,19 @@
 		C77A71DD1BB63705006B4675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77A71DB1BB63705006B4675 /* Main.storyboard */; };
 		C77A71DF1BB63705006B4675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77A71DE1BB63705006B4675 /* Assets.xcassets */; };
 		C77A71E21BB63705006B4675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77A71E01BB63705006B4675 /* LaunchScreen.storyboard */; };
+		C77A71ED1BB63F16006B4675 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77A71EC1BB63F16006B4675 /* Card.swift */; };
+		C77A71EF1BB63F23006B4675 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77A71EE1BB63F23006B4675 /* Deck.swift */; };
+		C77A71F11BB6453B006B4675 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77A71F01BB6453B006B4675 /* PlayingCard.swift */; };
+		C77A71F31BB73C83006B4675 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77A71F21BB73C83006B4675 /* PlayingCardDeck.swift */; };
+		C78D64231BC197D4008E8C3B /* Casino-Playing-Cards-icon75.png in Resources */ = {isa = PBXBuildFile; fileRef = C78D64221BC197D4008E8C3B /* Casino-Playing-Cards-icon75.png */; settings = {ASSET_TAGS = (); }; };
+		C78D64251BC19881008E8C3B /* Casino-Playing-Cards-icon50.png in Resources */ = {isa = PBXBuildFile; fileRef = C78D64241BC19881008E8C3B /* Casino-Playing-Cards-icon50.png */; settings = {ASSET_TAGS = (); }; };
+		C78D64291BC19DE3008E8C3B /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D64281BC19DE3008E8C3B /* GameResult.swift */; settings = {ASSET_TAGS = (); }; };
+		C78D64311BC1A3BF008E8C3B /* HistoryTableViewHeaderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D64301BC1A3BE008E8C3B /* HistoryTableViewHeaderCellTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C78D64331BC1A3DE008E8C3B /* HistoryTableViewGameResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D64321BC1A3DE008E8C3B /* HistoryTableViewGameResultsCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C78D64351BC2035E008E8C3B /* GameHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D64341BC2035E008E8C3B /* GameHistoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C7CB5D711BB98522002477B0 /* CardMatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB5D701BB98522002477B0 /* CardMatchingGame.swift */; };
+		C7F77E1B1BC0D61200D883CD /* Casino-Playing-Cards-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F77E1A1BC0D61200D883CD /* Casino-Playing-Cards-icon.png */; settings = {ASSET_TAGS = (); }; };
+		C7F77E1F1BC0DE0300D883CD /* Casino-Playing-Cards-icon25px.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F77E1E1BC0DE0300D883CD /* Casino-Playing-Cards-icon25px.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		C77A71DE1BB63705006B4675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77A71E11BB63705006B4675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77A71E31BB63705006B4675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77A71EC1BB63F16006B4675 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C77A71EE1BB63F23006B4675 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		C77A71F01BB6453B006B4675 /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		C77A71F21BB73C83006B4675 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		C78D64221BC197D4008E8C3B /* Casino-Playing-Cards-icon75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Casino-Playing-Cards-icon75.png"; path = "Assets.xcassets/TabBarCardImage.imageset/Casino-Playing-Cards-icon75.png"; sourceTree = "<group>"; };
+		C78D64241BC19881008E8C3B /* Casino-Playing-Cards-icon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Casino-Playing-Cards-icon50.png"; sourceTree = "<group>"; };
+		C78D64281BC19DE3008E8C3B /* GameResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		C78D64301BC1A3BE008E8C3B /* HistoryTableViewHeaderCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewHeaderCellTableViewCell.swift; sourceTree = "<group>"; };
+		C78D64321BC1A3DE008E8C3B /* HistoryTableViewGameResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewGameResultsCell.swift; sourceTree = "<group>"; };
+		C78D64341BC2035E008E8C3B /* GameHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHistoryViewController.swift; sourceTree = "<group>"; };
+		C7CB5D701BB98522002477B0 /* CardMatchingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardMatchingGame.swift; sourceTree = "<group>"; };
+		C7F77E1A1BC0D61200D883CD /* Casino-Playing-Cards-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Casino-Playing-Cards-icon.png"; sourceTree = "<group>"; };
+		C7F77E1E1BC0DE0300D883CD /* Casino-Playing-Cards-icon25px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Casino-Playing-Cards-icon25px.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,59 @@
 		C77A71D61BB63705006B4675 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				C77A71D71BB63705006B4675 /* AppDelegate.swift */,
+				C77A71E91BB63E99006B4675 /* Controller */,
+				C77A71EA1BB63E9F006B4675 /* Model */,
+				C7CB5D721BBB29C8002477B0 /* View */,
+				C77A71EB1BB63EC4006B4675 /* Supporting Files */,
+			);
+			path = Matchismo;
+			sourceTree = "<group>";
+		};
+		C77A71E91BB63E99006B4675 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				C77A71D91BB63705006B4675 /* ViewController.swift */,
-				C77A71DB1BB63705006B4675 /* Main.storyboard */,
+				C78D64341BC2035E008E8C3B /* GameHistoryViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C77A71EA1BB63E9F006B4675 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C77A71EC1BB63F16006B4675 /* Card.swift */,
+				C77A71F01BB6453B006B4675 /* PlayingCard.swift */,
+				C77A71EE1BB63F23006B4675 /* Deck.swift */,
+				C77A71F21BB73C83006B4675 /* PlayingCardDeck.swift */,
+				C7CB5D701BB98522002477B0 /* CardMatchingGame.swift */,
+				C78D64281BC19DE3008E8C3B /* GameResult.swift */,
+				C78D64301BC1A3BE008E8C3B /* HistoryTableViewHeaderCellTableViewCell.swift */,
+				C78D64321BC1A3DE008E8C3B /* HistoryTableViewGameResultsCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C77A71EB1BB63EC4006B4675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77A71D71BB63705006B4675 /* AppDelegate.swift */,
 				C77A71DE1BB63705006B4675 /* Assets.xcassets */,
 				C77A71E01BB63705006B4675 /* LaunchScreen.storyboard */,
 				C77A71E31BB63705006B4675 /* Info.plist */,
+				C7F77E1E1BC0DE0300D883CD /* Casino-Playing-Cards-icon25px.png */,
+				C78D64241BC19881008E8C3B /* Casino-Playing-Cards-icon50.png */,
+				C78D64221BC197D4008E8C3B /* Casino-Playing-Cards-icon75.png */,
+				C7F77E1A1BC0D61200D883CD /* Casino-Playing-Cards-icon.png */,
 			);
-			path = Matchismo;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7CB5D721BBB29C8002477B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C77A71DB1BB63705006B4675 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,11 +161,13 @@
 		C77A71CC1BB63705006B4675 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Michael Perry";
 				TargetAttributes = {
 					C77A71D31BB63705006B4675 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = KKY5YLK9HG;
 					};
 				};
 			};
@@ -121,8 +194,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78D64251BC19881008E8C3B /* Casino-Playing-Cards-icon50.png in Resources */,
+				C7F77E1F1BC0DE0300D883CD /* Casino-Playing-Cards-icon25px.png in Resources */,
 				C77A71E21BB63705006B4675 /* LaunchScreen.storyboard in Resources */,
+				C78D64231BC197D4008E8C3B /* Casino-Playing-Cards-icon75.png in Resources */,
 				C77A71DF1BB63705006B4675 /* Assets.xcassets in Resources */,
+				C7F77E1B1BC0D61200D883CD /* Casino-Playing-Cards-icon.png in Resources */,
 				C77A71DD1BB63705006B4675 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77A71F11BB6453B006B4675 /* PlayingCard.swift in Sources */,
+				C78D64331BC1A3DE008E8C3B /* HistoryTableViewGameResultsCell.swift in Sources */,
+				C78D64351BC2035E008E8C3B /* GameHistoryViewController.swift in Sources */,
+				C77A71EF1BB63F23006B4675 /* Deck.swift in Sources */,
 				C77A71DA1BB63705006B4675 /* ViewController.swift in Sources */,
+				C7CB5D711BB98522002477B0 /* CardMatchingGame.swift in Sources */,
+				C78D64291BC19DE3008E8C3B /* GameResult.swift in Sources */,
+				C78D64311BC1A3BF008E8C3B /* HistoryTableViewHeaderCellTableViewCell.swift in Sources */,
+				C77A71F31BB73C83006B4675 /* PlayingCardDeck.swift in Sources */,
+				C77A71ED1BB63F16006B4675 /* Card.swift in Sources */,
 				C77A71D81BB63705006B4675 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,10 +334,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Matchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smoosh911.Matchismo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -259,10 +349,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Matchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smoosh911.Matchismo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -285,6 +379,7 @@
 				C77A71E81BB63705006B4675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
